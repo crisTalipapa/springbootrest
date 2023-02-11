@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins="http://192.168.1.11:3000/")
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("railway")
 public class BrotherController {
 	
 	@Autowired
