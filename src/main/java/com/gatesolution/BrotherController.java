@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins="http://192.168.1.11:3000/")
+@CrossOrigin(origins="https://springbootrest-production.up.railway.app/")
 @RestController
 @RequestMapping("railway")
 public class BrotherController {
